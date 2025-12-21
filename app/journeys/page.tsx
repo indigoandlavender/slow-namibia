@@ -142,28 +142,10 @@ export default function JourneysPage() {
                   All
                 </FilterButton>
                 <FilterButton 
-                  active={startCityFilter === "casablanca"} 
-                  onClick={() => setStartCityFilter("casablanca")}
+                  active={startCityFilter === "windhoek"} 
+                  onClick={() => setStartCityFilter("windhoek")}
                 >
-                  Casablanca
-                </FilterButton>
-                <FilterButton 
-                  active={startCityFilter === "marrakech"} 
-                  onClick={() => setStartCityFilter("marrakech")}
-                >
-                  Marrakech
-                </FilterButton>
-                <FilterButton 
-                  active={startCityFilter === "fes"} 
-                  onClick={() => setStartCityFilter("fes")}
-                >
-                  Fes
-                </FilterButton>
-                <FilterButton 
-                  active={startCityFilter === "tangier"} 
-                  onClick={() => setStartCityFilter("tangier")}
-                >
-                  Tangier
+                  Windhoek
                 </FilterButton>
               </div>
             </div>
@@ -181,34 +163,22 @@ export default function JourneysPage() {
                   All
                 </FilterButton>
                 <FilterButton 
+                  active={focusFilter === "safari"} 
+                  onClick={() => setFocusFilter("safari")}
+                >
+                  Safari
+                </FilterButton>
+                <FilterButton 
                   active={focusFilter === "desert"} 
                   onClick={() => setFocusFilter("desert")}
                 >
                   Desert
                 </FilterButton>
                 <FilterButton 
-                  active={focusFilter === "mountains"} 
-                  onClick={() => setFocusFilter("mountains")}
+                  active={focusFilter === "coastal"} 
+                  onClick={() => setFocusFilter("coastal")}
                 >
-                  Mountains
-                </FilterButton>
-                <FilterButton 
-                  active={focusFilter === "culture"} 
-                  onClick={() => setFocusFilter("culture")}
-                >
-                  Culture
-                </FilterButton>
-                <FilterButton 
-                  active={focusFilter === "coast"} 
-                  onClick={() => setFocusFilter("coast")}
-                >
-                  Coast
-                </FilterButton>
-                <FilterButton 
-                  active={focusFilter === "food"} 
-                  onClick={() => setFocusFilter("food")}
-                >
-                  Food
+                  Coastal
                 </FilterButton>
               </div>
             </div>
