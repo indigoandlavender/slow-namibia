@@ -69,12 +69,12 @@ interface SiteConfig {
   parentBrand?: string; // For "Powered by" - only moons and microsites
 }
 
-// Slow Morocco is a Planet (commercial)
+// Slow Namibia is a Planet (commercial)
 const siteConfig: SiteConfig = {
-  siteId: "slow-morocco",
+  siteId: "slow-namibia",
   siteType: "planet",
   siteCategory: "commercial",
-  brandName: "Slow Morocco",
+  brandName: "Slow Namibia",
   // No parentBrand - planets are the parent
 };
 
@@ -113,7 +113,7 @@ interface FooterData {
 const defaultFooterData: FooterData = {
   newsletter: {
     backgroundImage: "",
-    title: "Notes from Morocco",
+    title: "Notes from Namibia",
     description: "Quiet. Irregular. Real.",
   },
   columns: [
@@ -140,12 +140,13 @@ const defaultFooterData: FooterData = {
     },
     {
       number: 3,
-      title: "Journeys",
+      title: "Explore",
       links: [
-        { order: 1, label: "All Journeys", href: "/journeys", type: "link" },
-        { order: 2, label: "Plan Your Trip", href: "/plan-your-trip", type: "link" },
-        { order: 3, label: "What's Included", href: "/whats-included", type: "link" },
-        { order: 4, label: "FAQ", href: "/faq", type: "link" },
+        { order: 1, label: "Journeys", href: "/journeys", type: "link" },
+        { order: 2, label: "Stories", href: "/stories", type: "link" },
+        { order: 3, label: "Places", href: "/places", type: "link" },
+        { order: 4, label: "Plan Your Trip", href: "/plan-your-trip", type: "link" },
+        { order: 5, label: "What's Included", href: "/whats-included", type: "link" },
       ],
     },
     {
@@ -314,7 +315,7 @@ export default function Footer() {
                         S L O W
                       </span>
                       <span className="font-serif text-sm tracking-[0.2em] text-white/90 block">
-                        M O R O C C O
+                        N A M I B I A
                       </span>
                     </div>
                   ) : (
